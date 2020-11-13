@@ -9,7 +9,7 @@
 <body>
 <h1>Ejemplo de Proyecto de ASR con Cloudant ahora con DevOps</h1>
 <hr />
-<p>Opciones <b>CLOUDANT en IBM Cloud Orion</b>:</p>
+<p>Opciones <b>CLOUDANT en IBM Cloud</b>:</p>
 <p>CARMEN OLLERO</p>
 <ul>
 <li><a href="listar">Listar</a></li>
