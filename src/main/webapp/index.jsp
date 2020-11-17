@@ -13,7 +13,8 @@
 <p>CARMEN OLLERO</p>
 <ul>
 <li><a href="listar">Listar</a></li>
-<li><a href="insertar?palabra=Carmen">Insertar</a></li>
+<li><a href="insertar?palabra=hola">Insertar</a></li>
+<li>Palabra en español: <form action="insertar"><input type="text" name="palabra" id="palabra"><input type="submit" ></form></li>
 </ul>
 </body>
 </html>
