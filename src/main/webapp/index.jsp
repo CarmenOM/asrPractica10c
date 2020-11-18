@@ -14,7 +14,7 @@
 <ul>
 <li><a href="listar">Listar</a></li>
 <li><a href="insertar?palabra=hola">Insertar</a></li>
-<li>Palabra en español: <form action="insertar" method="POST"><input type="text" name="palabra" id="palabra"><input type="submit" ></form></li>
+<li>Palabra en espanol: <form action="insertar" method="POST"><input type="text" name="palabra" id="palabra"><input type="submit" ></form></li>
 </ul>
 </body>
 </html>
