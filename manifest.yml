@@ -13,3 +13,4 @@ applications:
   #buildpack: liberty-for-java
   services:
   - asrDCBCloudantNoSQL
+  - Language Translator-asr
