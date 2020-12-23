@@ -1,3 +1,4 @@
+  
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -7,14 +8,23 @@
 <title>Proyecto ASR new...</title>
 </head>
 <body>
-<h1>Ejemplo de Proyecto de ASR con Cloudant ahora con DevOps</h1>
+<h1>Ejemplo de Proyecto de ASR con Cloudant ahora con DevOps Practica 11 </h1>
 <hr />
-<p>Opciones <b>CLOUDANT en IBM Cloud</b>:</p>
-<p>CARMEN OLLERO</p>
+<p>Opciones sobre la base de datos Cloudant de Andrea Farina</p>
 <ul>
 <li><a href="listar">Listar</a></li>
-<li><a href="insertar?palabra=hola">Insertar</a></li>
-<li>Palabra en espanol: <form action="insertar" method="POST"><input type="text" name="palabra" id="palabra"><input type="submit" ></form></li>
+<li>Palabra en español:
+<form action="insertar" method="post">
+	<input type="text" name="palabra">
+	<button type="submit">Guardar en Cloudant</button>
+</form>
+</li>
+<li>Crear audio:
+<form action="hablar" method="post">
+	<input type="text" name="palabra_audio">
+	<button type="submit">Reproducir en inglés</button>
+</form>
+</li>
 </ul>
 </body>
 </html>
